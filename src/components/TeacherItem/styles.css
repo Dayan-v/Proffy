@@ -15,7 +15,7 @@
 .teacher-item header img {
     width: 8rem;
     height: 8rem;
-    border-radius: 50%;
+    border-radius: 4rem;
 }
 
 .teacher-item header div {
@@ -76,9 +76,10 @@
     background: var(--color-secundary-dark);
 }
 
+
 @media (min-width: 700px) {
     .teacher-item header,
-    .teacher-item footer {
+    .teacher-item footer{
         padding: 3.2rem;
     }
 
